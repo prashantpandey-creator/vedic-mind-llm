@@ -10,7 +10,7 @@ from __future__ import annotations
 import os
 from typing import Dict, List
 
-from tools.void_manifest.arch_schema import (
+from void_manifest.arch_schema import (
     ArchitecturalGraph, EntityDef, ComponentDef, RouteDef, PageDef,
     FieldType, RelationType, ComponentType, AuthType, HttpMethod,
     _to_snake, _to_camel,

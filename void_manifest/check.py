@@ -23,9 +23,9 @@ import os
 import sys
 from typing import Any, Dict, List, Optional
 
-from tools.void_manifest.arch_schema import ArchitecturalGraph, validate
-from tools.void_manifest.render_nextjs import render, write_files
-from tools.void_manifest.prompts import build_messages, build_refine_messages
+from void_manifest.arch_schema import ArchitecturalGraph, validate
+from void_manifest.render_nextjs import render, write_files
+from void_manifest.prompts import build_messages, build_refine_messages
 
 
 def _envelope(success: bool, data: Any, metadata: Dict[str, Any],

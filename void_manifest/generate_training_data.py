@@ -20,8 +20,8 @@ import sys
 import time
 from typing import Any, Dict, List, Optional
 
-from tools.void_manifest.check import _call_llm, _extract_json, conceive
-from tools.void_manifest.arch_schema import ArchitecturalGraph, validate
+from void_manifest.check import _call_llm, _extract_json, conceive
+from void_manifest.arch_schema import ArchitecturalGraph, validate
 
 # ─── Seed app descriptions ────────────────────────────────────────────────────
 # Diverse across domains. The LLM will also generate variations.

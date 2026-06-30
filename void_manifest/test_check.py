@@ -11,14 +11,14 @@ from __future__ import annotations
 import json
 import os
 import tempfile
-from tools.void_manifest.arch_schema import (
+from void_manifest.arch_schema import (
     ArchitecturalGraph, AppDef, EntityDef, FieldDef, RouteDef, PageDef,
     ComponentDef, AuthDef, RelationDef,
     FieldType, RelationType, HttpMethod, AuthType, ComponentType,
     validate,
 )
-from tools.void_manifest.render_nextjs import render, write_files
-from tools.void_manifest.check import _envelope, _extract_json, conceive, manifest
+from void_manifest.render_nextjs import render, write_files
+from void_manifest.check import _envelope, _extract_json, conceive, manifest
 
 
 # ─── Fixtures ─────────────────────────────────────────────────────────────────
